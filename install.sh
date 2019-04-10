@@ -8,3 +8,7 @@ install_dotfile_git_repo(){
 install_tmux_config(){
     ln -s ~/code/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 }
+
+main {}{
+    # action a effectuer
+}
