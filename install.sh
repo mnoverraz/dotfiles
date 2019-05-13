@@ -5,6 +5,11 @@ install_dotfile_git_repo(){
     git clone https://github.com/mnoverraz/dotfiles.git ~/code/
 }
 
+install_bash_profile(){
+    ln -s ~/code/dotfiles/bash/.bash_profile ~/.bash_profile
+    ln -s ~/code/dotfiles/bash/.bash_prompt ~/.bash_profile
+}
+
 install_tmux_config(){
     ln -s ~/code/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 }
