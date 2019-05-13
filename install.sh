@@ -9,6 +9,14 @@ install_tmux_config(){
     ln -s ~/code/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 }
 
+install_vim_config(){
+    # install the plugin manager
+    mkdir -p ~/.vim/autoload/
+    cd ~/.vim/autoload/
+    curl -O https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+    ln -s ~/code/dotfiles/vim/.vimrc ~/.vimrc
+}
 main(){
     # action a effectuer
 }
