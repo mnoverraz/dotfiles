@@ -15,12 +15,12 @@ install_tmux_config(){
 }
 
 install_vim_config(){
+    ln -s ~/code/dotfiles/vim/.vimrc ~/.vimrc
+
     # install the plugin manager
     mkdir -p ~/.vim/autoload/
     cd ~/.vim/autoload/
     curl -O https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
-    ln -s ~/code/dotfiles/vim/.vimrc ~/.vimrc
 }
 
 install_youtube-dl(){
