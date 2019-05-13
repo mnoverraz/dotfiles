@@ -17,6 +17,11 @@ install_vim_config(){
 
     ln -s ~/code/dotfiles/vim/.vimrc ~/.vimrc
 }
+
+install_youtube-dl(){
+    ln -s ~/code/dotfiles/youtube-dl/youtube-dl.conf ~/.config/youtube-dl.conf
+}
+
 main(){
     # action a effectuer
 }
