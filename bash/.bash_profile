@@ -4,7 +4,7 @@ alias ll="lla"
 export EDITOR="/usr/bin/nano"
 alias bashrc="code /Users/admin/.bash_profile"
 alias bash_profile="code /Users/admin/.bash_profile"
-alias srcbash="source ~/.bash_profile"
+alias sourcebash="source ~/.bash_profile"
 
 #Développement
 alias htdocs='cd /Applications/MAMP/htdocs'
