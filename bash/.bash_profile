@@ -15,6 +15,9 @@ source /Users/admin/.git-completion.bash
 alias iafbm='cd /Applications/MAMP/htdocs/iafbm && git status'
 alias iafbmlog='tail -f /tmp/site.log'
 
+# VIM
+alias vimPlugUpdate="vim +\'PlugInstall --sync\' +qa"
+
 # Programmes
 alias paperwork='bash /Users/admin/scripts/paperwork.sh'
 alias keybox="open -a /Applications/Firefox.app https://localhost:8443 && cd /Users/admin/Downloads/KeyBox && ./startKeyBox.sh"
