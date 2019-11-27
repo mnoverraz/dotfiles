@@ -58,6 +58,11 @@ bind '"\e[B":history-search-forward'
 # export LESS_TERMCAP_ue=$'\e[0m'
 # export LESS_TERMCAP_us=$'\e[1;4;31m'
 
+# Bash history
+export HISTCONTROL=ignoredups:erasedups:ignorespace  # no duplicate entries
+export HISTSIZE=10000                    # big big history
+export HISTFILESIZE=10000                # big big history
+#shopt -s histappend                      # append to history, don't overwrite it
 
 export HOMEBREW_GITHUB_API_TOKEN=316c67696ec2ceafa84144c2f2d62fe2e88d7f94
 
