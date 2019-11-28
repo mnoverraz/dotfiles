@@ -22,6 +22,7 @@ alias vimPlugUpdate="vim +\'PlugInstall --sync\' +qa"
 alias paperwork='bash /Users/admin/scripts/paperwork.sh'
 alias keybox="open -a /Applications/Firefox.app https://localhost:8443 && cd /Users/admin/Downloads/KeyBox && ./startKeyBox.sh"
 alias music="mpsyt ls"
+alias sshuttlePayerne="sshuttle @/Users/admin/code/dotfiles/sshuttle/sshuttle.conf"
 
 # Git prompt
 #. /Users/admin/.git-prompt.sh
