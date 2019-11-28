@@ -64,7 +64,6 @@ export HISTSIZE=10000                    # big big history
 export HISTFILESIZE=10000                # big big history
 #shopt -s histappend                      # append to history, don't overwrite it
 
-export HOMEBREW_GITHUB_API_TOKEN=316c67696ec2ceafa84144c2f2d62fe2e88d7f94
 
 HOMEBREW_PREFIX=$(brew --prefix)
 if type brew &>/dev/null; then
