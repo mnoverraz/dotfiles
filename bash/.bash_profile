@@ -16,7 +16,7 @@ alias iafbm='cd /Applications/MAMP/htdocs/iafbm && git status'
 alias iafbmlog='tail -f /tmp/site.log'
 
 # VIM
-alias vimPlugUpdate="vim +\'PlugInstall --sync\' +qa"
+alias vimPlugUpdate="vim -c PlugUpdate"
 
 # Programmes
 alias paperwork='bash /Users/admin/scripts/paperwork.sh'
