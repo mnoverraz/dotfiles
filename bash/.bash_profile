@@ -1,3 +1,6 @@
+# Bash features
+shopt -s autocd # Allows you to cd into directory by typing the directory name
+
 # Aliases
 alias lla="ls -laGh"
 alias ll="lla"
