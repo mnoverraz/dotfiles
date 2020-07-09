@@ -1,31 +1,29 @@
-# System
+# Aliases
 alias lla="ls -laGh"
 alias ll="lla"
-export EDITOR="/usr/bin/vi"
 alias bashrc="code /Users/admin/.bash_profile"
 alias bash_profile="code /Users/admin/.bash_profile"
 alias sourcebash="source ~/.bash_profile"
-
-# Développement
 alias htdocs='cd /Applications/MAMP/htdocs'
 alias mamphp='/Applications/MAMP/bin/php5.3/bin/php'
 source /Users/admin/.git-completion.bash
-
-# VIM
 alias vimPlugUpdate="vim -c PlugUpdate"
-
-# Programmes
 alias paperwork='bash /Users/admin/scripts/paperwork.sh'
 alias keybox="open -a /Applications/Firefox.app https://localhost:8443 && cd /Users/admin/Downloads/KeyBox && ./startKeyBox.sh"
 alias music="mpsyt ls"
 alias sshuttlePayerne="sshuttle @/Users/admin/code/dotfiles/sshuttle/sshuttle.conf"
 alias python=/usr/local/bin/python3 #Because of python is python2
 
-# Git prompt
-source /Users/admin/.git-prompt.sh
+# Environnement
+export EDITOR="/usr/bin/vi"
 export GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="[\[$(tput sgr0)\]\[\033[38;5;2m\]\A\[$(tput sgr0)\]\[\033[38;5;15m\]]\[$(tput sgr0)\]\[\033[38;5;1m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[\033[38;5;2m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\][\[$(tput sgr0)\]\[\033[38;5;1m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]$ \[$(tput sgr0)\]"
-#export PS1="\033[38;5;11m\]$(__git_ps1 ' (%s)')\033[38;5;15m\$ "
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND" # Save and reload the history after each command finishes
+export HOMEBREW_GITHUB_API_TOKEN=9c9f141936abc305e0989db6d72cc92c89b6824c
+
+# Git prompt
+source /Users/admin/.git-prompt.sh
+
 source /Users/admin/.bash_prompt
 
 # Go
@@ -73,7 +71,7 @@ else
 HISTFILE="${HISTS_DIR}/bash_history_no_tmux"
 fi
 
-# # Save and reload the history after each command finishes
+# Save and reload the history after each command finishes
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 export HOMEBREW_GITHUB_API_TOKEN=9c9f141936abc305e0989db6d72cc92c89b6824c
