@@ -18,6 +18,7 @@ alias keybox="open -a /Applications/Firefox.app https://localhost:8443 && cd /Us
 alias music="mpsyt ls"
 alias sshuttlePayerne="sshuttle @/Users/admin/code/dotfiles/sshuttle/sshuttle.conf"
 alias python=/usr/local/bin/python3 #Because of python is python2
+alias natel="scrcpy --stay-awake --turn-screen-off --show-touches"
 
 # Environnement
 export EDITOR="/usr/bin/vi"
