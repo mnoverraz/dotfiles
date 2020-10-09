@@ -19,6 +19,7 @@ alias music="mpsyt ls"
 alias sshuttlePayerne="sshuttle @/Users/admin/code/dotfiles/sshuttle/sshuttle.conf"
 alias python=/usr/local/bin/python3 #Because of python is python2
 alias natel="scrcpy --stay-awake --turn-screen-off --show-touches"
+alias rcloneweb="rclone rcd --rc-web-gui --rc-user=admin --rc-htpasswd=/Users/admin/.config/rclone/.htaccess --rc-enable-metrics"
 
 # Environnement
 export EDITOR="/usr/bin/vi"
