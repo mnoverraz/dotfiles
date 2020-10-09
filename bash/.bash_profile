@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Bash features
 shopt -s autocd # Allows you to cd into directory by typing the directory name
 
